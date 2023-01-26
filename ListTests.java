@@ -18,6 +18,11 @@ public class ListTests {
 
     @Test
     public void testMerge() {
-        
+        List<String> mergerList_1A = new ArrayList<>();
+        mergerList_1A.add("1");
+        List<String> mergerList_1B = new ArrayList<>();
+        mergerList_1A.add("2");
+        mergerList_1A.add("3");
+        assertEquals(new ArrayList<>(Arrays.asList("1", "2", "3")), ListExamples.merge(mergerList_1A, mergerList_1B));
     }
 }
