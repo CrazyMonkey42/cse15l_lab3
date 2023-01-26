@@ -15,4 +15,9 @@ public class ListTests {
                                                                // method (not the concrete class)
         assertEquals(new ArrayList<>(Arrays.asList("hola", "hi")), ListExamples.filter(list1, checker1));
     }
+
+    @Test
+    public void testMerge() {
+        
+    }
 }
